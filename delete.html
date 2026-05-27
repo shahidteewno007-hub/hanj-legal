@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanj — Delete My Data</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0A0A0A;
+      color: #C8C3BC;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .logo {
+      font-family: Georgia, serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #F3EEE7;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    .logo span { color: #F97316; }
+    .tagline { font-size: 13px; color: #666; margin-bottom: 48px; }
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 32px;
+      color: #F3EEE7;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .subtitle { font-size: 15px; color: #888; margin-bottom: 40px; }
+    h2 {
+      font-size: 13px;
+      font-weight: 700;
+      color: #F97316;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      margin: 36px 0 12px;
+    }
+    p { margin-bottom: 14px; font-size: 15px; }
+    a { color: #F97316; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #1E1E1E; margin: 40px 0; }
+    .nav { margin-bottom: 32px; }
+    .nav a {
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #888;
+      letter-spacing: 0.5px;
+    }
+    .nav a.active { color: #F97316; }
+    .steps {
+      counter-reset: steps;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 14px;
+    }
+    .steps li {
+      counter-increment: steps;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid #1A1A1A;
+      font-size: 15px;
+    }
+    .steps li:last-child { border-bottom: none; }
+    .step-num {
+      min-width: 28px;
+      height: 28px;
+      background: #1A1A1A;
+      border: 1px solid #2A2A2A;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: #F97316;
+      font-family: monospace;
+      margin-top: 2px;
+    }
+    .warning {
+      background: #1A0A0A;
+      border: 1px solid #3A1010;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 24px 0;
+      font-size: 14px;
+      color: #CC6666;
+    }
+    .warning strong { color: #E88888; display: block; margin-bottom: 4px; }
+    .contact-box {
+      background: #111;
+      border: 1px solid #1E1E1E;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+    .contact-box p { margin-bottom: 6px; }
+    .contact-box a { font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">Hanj<span>.</span></div>
+    <div class="tagline">Track the anime that pulls you forward.</div>
+
+    <div class="nav">
+      <a href="index.html">Privacy Policy</a>
+      <a href="delete.html" class="active">Delete My Data</a>
+    </div>
+
+    <h1>Delete My Data</h1>
+    <div class="subtitle">You can delete your Hanj account and all associated data at any time.</div>
+
+    <h2>What gets deleted</h2>
+    <p>Deleting your account permanently removes:</p>
+    <p>Your email address and login credentials · Your anime lists (Watching, Completed, Plan to Watch, Dropped) · Episode progress, ratings, and notes · Taste profile and genre preferences · Activity feed history · Notification preferences · Founder status record (if applicable)</p>
+    <p>Deletion is permanent and cannot be undone.</p>
+
+    <div class="warning">
+      <strong>⚠ This cannot be reversed.</strong>
+      Once deleted, your lists and progress cannot be recovered. Export or note anything you want to keep before proceeding.
+    </div>
+
+    <h2>How to delete from the app</h2>
+    <ol class="steps">
+      <li>
+        <div class="step-num">1</div>
+        <div>Open Hanj and make sure you are signed in to the account you want to delete.</div>
+      </li>
+      <li>
+        <div class="step-num">2</div>
+        <div>Tap <strong>Profile</strong> in the bottom navigation bar.</div>
+      </li>
+      <li>
+        <div class="step-num">3</div>
+        <div>Tap the <strong>···</strong> menu icon in the top-right corner of the Profile screen.</div>
+      </li>
+      <li>
+        <div class="step-num">4</div>
+        <div>Tap <strong>More</strong> to expand the additional options.</div>
+      </li>
+      <li>
+        <div class="step-num">5</div>
+        <div>Tap <strong>Delete Account</strong> and confirm when prompted.</div>
+      </li>
+    </ol>
+    <p>Your account and all data will be permanently deleted immediately.</p>
+
+    <h2>Can't access the app?</h2>
+    <p>If you no longer have access to the app or your account, you can request manual deletion by contacting us directly:</p>
+
+    <div class="contact-box">
+      <p>Email us at <a href="mailto:hanj.app@gmail.com">hanj.app@gmail.com</a></p>
+      <p style="color:#666; font-size:13px; margin-top:8px;">Please include the email address associated with your account. We will process deletion requests within 30 days.</p>
+    </div>
+
+    <hr />
+    <p style="font-size:12px; color:#444;">© 2026 Hanj. All rights reserved. · <a href="index.html">Privacy Policy</a></p>
+  </div>
+</body>
+</html>
